@@ -1,19 +1,16 @@
 
-import { ToastContainer } from 'react-toastify';
 import './App.css';
-import Test from './component/Test';
+import TodoList2 from './component/todo-list-2/TodoList2';
+
+// import Test from './component/Test';
 
 function App() {
   return (
     <div>
-      <Test/>
-      <ToastContainer
-            hideProgressBar
-            position="top-center"
-            limit={1}
-            newestOnTop={true}
-            autoClose={2000}
-          />
+      {/* <Test/> */}
+
+      <TodoList2/>
+
     </div>
   );
 }
